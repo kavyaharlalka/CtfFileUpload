@@ -1,0 +1,30 @@
+name: File Upload
+description: |
+  This is a simple challenge that is intended to familiarize you with the connection process, as well as giving you some free points (Which you can use to access hints later).
+  This CTF needs you to know the following:
+  Knowledge on a generic website's structure.
+  Basic Website Injection techniques.
+  Basic Knowledge of linux file system commands.
+
+  **Connection Instructions**:
+  
+  Do the following:
+
+  $ ssh -L localhost:<local port>:container_ip:container_port -p 56151 <username>@cs561.cs.umass.edu
+
+  For example, run
+
+  $ ssh -L localhost:8080:172.20.26.4:80 -p 56151 user@cs561.cs.umass.edu
+
+  This will forward the local port 8080 on your machine to 172.20.26.4:80 on the swarm network, where this challenge is hosted.
+
+  You can try going to localhost:8080/flagone.php on your browser to see if the forwarding has worked.
+
+  The challenge here is to exploit a vulnerability in the given PHP file upload functionality.
+
+value: 100
+category: Miscellaneous
+flag: CTF_SDaT{uPload_3xplo1ts}
+
+# administrative
+container_name: misc-file-upload

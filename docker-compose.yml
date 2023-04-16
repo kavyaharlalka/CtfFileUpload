@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  misc-file-upload:
+    container_name: misc-file-upload
+    build:
+      context: ../../../
+      dockerfile: challenges/misc/file_upload/Dockerfile
+    networks:
+      nw0:
+    command: bash start_php.sh
+
+networks:
+  nw0:
+    external: true
