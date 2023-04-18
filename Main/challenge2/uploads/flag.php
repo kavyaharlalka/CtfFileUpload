@@ -6,6 +6,6 @@ if ( $_SERVER['REQUEST_METHOD']=='GET' && realpath(__FILE__) == realpath( $_SERV
 
 }
 
-// The flag is CTF_SDaT{uPload_3xplo1ts}
+// The flag is CTF_SDaT{_@nd_file_uPload_3xplo1ts}
 
 ?>
