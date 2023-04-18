@@ -1,10 +1,10 @@
 version: "3.9"
 services:
-  misc-file-upload:
-    container_name: misc-file-upload
+  misc-php-file-expolits:
+    container_name: misc-php-file-expolits
     build:
       context: ../../../
-      dockerfile: challenges/misc/file_upload/Dockerfile
+      dockerfile: challenges/misc/php-file-expolits/Dockerfile
     networks:
       nw0:
     command: bash start_php.sh
