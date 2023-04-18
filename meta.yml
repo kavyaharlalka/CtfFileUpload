@@ -18,13 +18,14 @@ description: |
 
   This will forward the local port 8080 on your machine to 172.20.26.4:80 on the swarm network, where this challenge is hosted.
 
-  You can try going to localhost:8080/flagone.php on your browser to see if the forwarding has worked.
+  You can try going to localhost:8080 on your browser to see if the forwarding has worked.
 
-  The challenge here is to exploit a vulnerability in the given PHP file upload functionality.
+  Challenge 1: Exploit a vulnerability in the given PHP file inclusion functionality.
+  Challenge 2: Exploit a vulnerability in the given PHP file upload functionality.
 
 value: 100
 category: Miscellaneous
-flag: CTF_SDaT{uPload_3xplo1ts}
+flag: CTF_SDaT{f1l3_inclu510n_vuln3r4b1l1ty_@nd_uPload_3xplo1t}
 
 # administrative
-container_name: misc-file-upload
+container_name: misc-php-file-expolits
