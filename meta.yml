@@ -1,10 +1,10 @@
 name: File Upload
 description: |
-  This is a simple challenge that is intended to familiarize you with the connection process, as well as giving you some free points (Which you can use to access hints later).
+  This is a challenge that familiarizes you with exploits in the PHP file inclusion and file upload functionalities.
   This CTF needs you to know the following:
   Knowledge on a generic website's structure.
   Basic Website Injection techniques.
-  Basic Knowledge of linux file system commands.
+  Basic Knowledge of Linux file system commands.
 
   **Connection Instructions**:
   
