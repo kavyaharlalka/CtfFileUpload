@@ -1,4 +1,4 @@
-name: File Upload
+name: PHP File Exploits
 description: |
   This is a challenge that familiarizes you with exploits in the PHP file inclusion and file upload functionalities.
   This CTF needs you to know the following:
